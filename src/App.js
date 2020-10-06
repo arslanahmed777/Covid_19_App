@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <NavBar/>
-      
       <InfoPanel currentScreen={screenConfig[0]}/>
       <FootNav screenConfig={screenConfig}/>
     </>
